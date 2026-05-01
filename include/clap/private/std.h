@@ -1,6 +1,6 @@
 #pragma once
 
-#include "macros.h"
+#include <clap/private/macros.h>
 
 #ifdef CLAP_HAS_CXX11
 #   include <cstdint>

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../plugin.h"
+#include <clap/plugin.h>
 
 static CLAP_CONSTEXPR const char CLAP_EXT_RENDER[] = "clap.render";
 

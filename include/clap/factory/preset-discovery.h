@@ -41,11 +41,11 @@
 
 #pragma once
 
-#include "../private/std.h"
-#include "../private/macros.h"
-#include "../timestamp.h"
-#include "../version.h"
-#include "../universal-plugin-id.h"
+#include <clap/private/std.h>
+#include <clap/private/macros.h>
+#include <clap/timestamp.h>
+#include <clap/version.h>
+#include <clap/universal-plugin-id.h>
 
 // Use it to retrieve const clap_preset_discovery_factory_t* from
 // clap_plugin_entry.get_factory()

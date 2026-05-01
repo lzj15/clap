@@ -1,6 +1,6 @@
 #pragma once
 
-#include "audio-ports.h"
+#include <clap/ext/audio-ports.h>
 
 #ifdef __cplusplus
 extern "C" {

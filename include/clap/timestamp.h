@@ -1,7 +1,7 @@
 #pragma once
 
-#include "private/std.h"
-#include "private/macros.h"
+#include <clap/private/std.h>
+#include <clap/private/macros.h>
 
 // This type defines a timestamp: the number of seconds since UNIX EPOCH.
 // See C's time_t time(time_t *).

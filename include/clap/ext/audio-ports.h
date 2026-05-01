@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../plugin.h"
-#include "../string-sizes.h"
+#include <clap/plugin.h>
+#include <clap/string-sizes.h>
 
 /// @page Audio Ports
 ///

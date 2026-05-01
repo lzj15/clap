@@ -1,9 +1,9 @@
 #pragma once
 
-#include "private/macros.h"
-#include "host.h"
-#include "process.h"
-#include "plugin-features.h"
+#include <clap/private/macros.h>
+#include <clap/host.h>
+#include <clap/process.h>
+#include <clap/plugin-features.h>
 
 #ifdef __cplusplus
 extern "C" {

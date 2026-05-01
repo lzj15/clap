@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../plugin.h"
-#include "../stream.h"
+#include <clap/plugin.h>
+#include <clap/stream.h>
 
 /// @page state-context extension
 /// @brief extended state handling

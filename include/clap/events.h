@@ -1,8 +1,8 @@
 #pragma once
 
-#include "private/std.h"
-#include "fixedpoint.h"
-#include "id.h"
+#include <clap/private/std.h>
+#include <clap/fixedpoint.h>
+#include <clap/id.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "private/std.h"
+#include <clap/private/std.h>
 
 #ifdef __cplusplus
 extern "C" {
