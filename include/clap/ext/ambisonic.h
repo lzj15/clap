@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../plugin.h"
+#include <clap/plugin.h>
 
 // This extension can be used to specify the channel mapping used by the plugin.
 static CLAP_CONSTEXPR const char CLAP_EXT_AMBISONIC[] = "clap.ambisonic/3";

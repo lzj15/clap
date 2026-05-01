@@ -1,9 +1,9 @@
 #pragma once
 
-#include "private/macros.h"
-#include "host.h"
-#include "process.h"
-#include "plugin-features.h"
+#include <clap/private/macros.h>
+#include <clap/host.h>
+#include <clap/process.h>
+#include <clap/plugin-features.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -46,7 +46,7 @@ typedef struct clap_plugin {
    // Must be called after creating the plugin.
    // If init returns false, the host must destroy the plugin instance.
    // If init returns true, then the plugin is initialized and in the deactivated state.
-   // Unlike in `plugin-factory::create_plugin`, in init you have complete access to the host 
+   // Unlike in `plugin-factory::create_plugin`, in init you have complete access to the host
    // and host extensions, so clap related setup activities should be done here rather than in
    // create_plugin.
    // [main-thread]

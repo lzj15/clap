@@ -1,7 +1,7 @@
 #pragma once
 
-#include "version.h"
-#include "private/macros.h"
+#include <clap/version.h>
+#include <clap/private/macros.h>
 
 #ifdef __cplusplus
 extern "C" {

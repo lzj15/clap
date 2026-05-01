@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../plugin.h"
+#include <clap/plugin.h>
 
 /// @page GUI
 ///

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../plugin.h"
+#include <clap/plugin.h>
 
 // This extension indicates the number of voices the synthesizer has.
 // It is useful for the host when performing polyphonic modulations,

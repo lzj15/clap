@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../plugin.h"
+#include <clap/plugin.h>
 
 // This extension let your plugin hook itself into the host select/poll/epoll/kqueue reactor.
 // This is useful to handle asynchronous I/O on the main thread.

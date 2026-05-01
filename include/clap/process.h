@@ -1,7 +1,7 @@
 #pragma once
 
-#include "events.h"
-#include "audio-buffer.h"
+#include <clap/events.h>
+#include <clap/audio-buffer.h>
 
 #ifdef __cplusplus
 extern "C" {

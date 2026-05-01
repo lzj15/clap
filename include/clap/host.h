@@ -1,6 +1,6 @@
 #pragma once
 
-#include "version.h"
+#include <clap/version.h>
 
 #ifdef __cplusplus
 extern "C" {
